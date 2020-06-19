@@ -1,0 +1,53 @@
+{
+    "name": "masterform",
+    "version": "0.1.0",
+    "description": "Plug and play form library for React/React Native",
+    "author": "Vaibhav Raj Singh <jar.vaibhav.raj@gmail.com>",
+    "license": "MIT",
+    "repository": "jarvaibhavraj/masterform",
+    "keywords": [
+        "react",
+        "react-native",
+        "form",
+        "forms",
+        "form-ui",
+        "masterform"
+    ],
+    "bugs": {
+        "url": "https://github.com/jarvaibhavraj/masterform/issues"
+    },
+    "homepage": "https://github.com/jarvaibhavraj/masterform#readme",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "webpack-dev-server --mode development",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "transpile": "babel src -d dist --copy-files",
+        "prepublishOnly": "npm run transpile",
+        "build": "webpack --mode production",
+        "deploy": "gh-pages -d examples/dist"
+    },
+    "peerDependencies": {
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.10.1",
+        "@babel/core": "^7.10.2",
+        "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-remove-console": "^6.9.4",
+        "css-loader": "^3.6.0",
+        "file-loader": "^6.0.0",
+        "gh-pages": "^3.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "prettier": "^2.0.5",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
