@@ -1,6 +1,6 @@
 {
     "name": "masterform",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Plug and play form library for React/React Native",
     "author": "Vaibhav Raj Singh <jar.vaibhav.raj@gmail.com>",
     "license": "MIT",
