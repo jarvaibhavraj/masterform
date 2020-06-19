@@ -65,18 +65,18 @@ export default Form;
 
 ## Available Fields
 
--   [TextInput](##textinput)
--   [Picker](##picker)
--   [CheckBox](##checkbox)
--   [CheckBoxGroup](##checkboxgroup)
--   [DateTimePicker](##datetimepicker)
--   [FileInput](##fileinput)
--   [ImagePicker](##imagepicker)
--   [ColorPicker](##colorpicker)
--   [PlaceInput](##placeinput)
--   [Section](##section)
--   [RepeatingRow](##repeatingrow)
--   [SubmitButton](##submitbutton)
+-   [TextInput](#textinput)
+-   [Picker](#picker)
+-   [CheckBox](#checkbox)
+-   [CheckBoxGroup](#checkboxgroup)
+-   [DateTimePicker](#datetimepicker)
+-   [FileInput](#fileinput)
+-   [ImagePicker](#imagepicker)
+-   [ColorPicker](#colorpicker)
+-   [PlaceInput](#placeinput)
+-   [Section](#section)
+-   [RepeatingRow](#repeatingrow)
+-   [SubmitButton](#submitbutton)
 
 ## TextInput
 
@@ -86,7 +86,7 @@ export default Form;
 | label          | No       | `null`                                        | Label shown above the field                      |
 | placeholder    | No       | `null`                                        | Placeholder content when field is empty          |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## Picker
@@ -98,7 +98,7 @@ export default Form;
 | placeholder    | No       | `null`                                        | Placeholder content when field is empty                                                      |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                                                             |
 | options        | No       | `[]`                                          | Array of labels and values <br><br> `[ {label: 'A', value: 'a'}, {label: 'B', value: 'b'} ]` |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)                                                     |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)                                                      |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                                                                 |
 
 ## CheckBox
@@ -111,7 +111,7 @@ export default Form;
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
 | radio          | No       | `false`                                       | Act as a radio button instead of a checkbox      |
 | noUncheck      | No       | `false`                                       | Can the box be unticked?                         |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## CheckBoxGroup
@@ -127,7 +127,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | multiple       | No       | `false`                                       | Can tick multiple boxes                                                                      |
 | noUncheck      | No       | `false`                                       | Can the boxes be unticked?                                                                   |
 | options        | No       | `[]`                                          | Array of labels and values <br><br> `[ {label: 'A', value: 'a'}, {label: 'B', value: 'b'} ]` |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)                                                     |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)                                                      |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                                                                 |
 
 ## DateTimePicker
@@ -139,7 +139,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | placeholder    | No       | `null`                                        | Placeholder content when field is empty          |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
 | mode           | No       | `date`                                        | `date`, `time`, `datetime`, `month`              |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## FileInput
@@ -152,7 +152,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                         |
 | multiple       | No       | `null`                                        | Pick multiple files                                      |
 | type           | No       | `null`                                        | Type of file to pick <br> `null`, `image`, `spreadsheet` |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)                 |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)                  |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                             |
 
 ## ImagePicker
@@ -164,7 +164,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | placeholder    | No       | `null`                                        | Placeholder content when field is empty          |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
 | multiple       | No       | `null`                                        | Pick multiple images                             |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## ColorPicker
@@ -174,7 +174,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | name           | Yes      |                                               | Name of the field. Used as key in the form state |
 | label          | No       | `null`                                        | Label shown above the field                      |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## PlaceInput
@@ -186,7 +186,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | placeholder    | No       | `null`                                        | Placeholder content when field is empty          |
 | disabled       | No       | `false`                                       | Is field disabled (not editable)                 |
 | mode           | No       | `map`                                         | `map`, `text`                                    |
-| validators     | No       | `[]`                                          | [See form validation](##form-validation)         |
+| validators     | No       | `[]`                                          | [See form validation](#form-validation)          |
 | containerStyle | No       | `{ minWidth: 200, maxWidth: 410, margin: 4 }` | Style of the field container                     |
 
 ## Section
