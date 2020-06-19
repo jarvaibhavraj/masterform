@@ -30,7 +30,10 @@ module.exports = {
     },
     plugins: [htmlWebpackPlugin],
     resolve: {
-        extensions: ['.js', '.jsx'],
+        alias: {
+            'react-native$': 'react-native-web',
+        },
+        extensions: ['.js', '.jsx', '.web.js'],
     },
     devServer: {
         port: 3001,
