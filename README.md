@@ -55,6 +55,17 @@ const Form = () => {
 export default Form;
 ```
 
+## Example
+
+Check out the [example code](https://github.com/jarvaibhavraj/masterform/blob/master/example/src/App.js) 
+or [see it in action](https://jarvaibhavraj.github.io/masterform/).
+
+Apologies if the example doesn't look too good, it's still a WIP :sweat_smile:
+
+Rest assured all the form styles (colors, borders and fonts) will be customizable.
+
+#API
+
 ## MasterForm
 
 | Prop         | Required | Description                     |
