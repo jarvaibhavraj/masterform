@@ -8,7 +8,7 @@ import { colors, textStyles, containerStyles } from '../styles';
 
 import './PlaceInput.web.css';
 
-const MAPS_API_KEY_WEB = '';
+let MAPS_API_KEY_WEB = '';
 
 const getCurrentLocation = () => {
     // returns {latitude, longitude}
@@ -389,10 +389,13 @@ const TextPlaceInput = ({ props, context, search }) => {
 export default ({
     props: {
         mode = 'map', // map, text
+        apiKey = '',
         ...restProps
     },
     context,
 }) => {
+    MAPS_API_KEY_WEB = apiKey;
+
     return mode === 'text' ? (
         <TextPlaceInput props={restProps} context={context} />
     ) : (

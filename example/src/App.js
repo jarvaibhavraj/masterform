@@ -68,7 +68,12 @@ const ExampleForm = () => {
 
             <MasterForm.Section style={{ marginTop: sectionMargin, marginBottom: 10 }} title={'OTHER'}>
                 <MasterForm.ColorPicker name={'color'} label={'Favorite Color'} />
-                <MasterForm.PlaceInput name={'location'} label={'Location'} containerStyle={{ marginTop: 18 }} />
+                <MasterForm.PlaceInput
+                    name={'location'}
+                    label={'Location'}
+                    containerStyle={{ marginTop: 18 }}
+                    apiKey={''} // USE A GOOGLE MAPS API KEY
+                />
             </MasterForm.Section>
 
             <MasterForm.Section row style={{ marginTop: sectionMargin }}>

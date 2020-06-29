@@ -193,6 +193,7 @@ CheckboxGroup controls multiple CheckBoxes as a group so that only one can be ti
 | Prop           | Required | Default                 | Description                                      |
 | -------------- | -------- | ----------------------- | ------------------------------------------------ |
 | name           | Yes      |                         | Name of the field. Used as key in the form state |
+| apiKey         | Yes      |                         | Your Google maps API key                         |
 | label          | No       | `null`                  | Label shown above the field                      |
 | placeholder    | No       | `null`                  | Placeholder content when field is empty          |
 | disabled       | No       | `false`                 | Is field disabled (not editable)                 |
